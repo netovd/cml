@@ -98,6 +98,13 @@ class Product extends Model
             }
         }
 
+
+        $this->brand                = trim($xml->Производитель);
+        $this->manufacturerID       = trim($xml->Изготовитель->Ид);
+        $this->manufacturerName     = trim($xml->Изготовитель->Наименование);
+        $this->manufacturerOfName   = trim($xml->Изготовитель->ОфициальноеНаименование);
+
+
         if ($xml->ЗначенияРеквизитов) {
             foreach ($xml->ЗначенияРеквизитов->ЗначениеРеквизита as $value) {
                 $name                    = (string)$value->Наименование;
@@ -116,6 +123,9 @@ class Product extends Model
                 }
             }
         }
+
+        $this->description          = trim($this->requisites['Полное наименование']);
+
     }
 
     /**
@@ -127,6 +137,9 @@ class Product extends Model
      */
     public function loadOffers($xml)
     {
+        $this->part = trim($xml->Штрихкод);
+
+
         if ($xml->Количество) {
             $this->quantity = (int)$xml->Количество;
         }
@@ -143,6 +156,7 @@ class Product extends Model
             }
         }
     }
+
 
     /**
      * Get price by type.
