@@ -1,9 +1,9 @@
 {
-    "name": "netovd/commerceml",
+    "name": "netovd/cml",
     "type": "library",
-    "homepage": "https://github.com/netovd/php-commerceml",
+    "homepage": "https://github.com/netovd/cml",
     "description": "Library for parsing CommerceML files",
-    "keywords": ["commerceml", "1c"],
+    "keywords": ["cml", "1c"],
     "license": "MIT",
     "authors": [
         {
@@ -13,7 +13,7 @@
         }
     ],
     "autoload": {
-        "psr-4": {"NetovD\\CommerceML\\": "src/"}
+        "psr-4": {"Zenwalker\\CommerceML\\": "src/"}
     },
     "require": {
 
