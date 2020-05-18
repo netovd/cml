@@ -1,4 +1,4 @@
-<?php namespace Zenwalker\CommerceML\ORM;
+<?php namespace NetovD\cml\ORM;
 
 abstract class Model
 {

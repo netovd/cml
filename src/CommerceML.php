@@ -1,14 +1,14 @@
-<?php namespace Zenwalker\CommerceML;
+<?php namespace NetovD\cml;
 
-use Zenwalker\CommerceML\Model\Category;
-use Zenwalker\CommerceML\Model\CategoryCollection;
-use Zenwalker\CommerceML\Model\PriceType;
-use Zenwalker\CommerceML\Model\PriceTypeCollection;
-use Zenwalker\CommerceML\Model\Product;
-use Zenwalker\CommerceML\Model\ProductCollection;
-use Zenwalker\CommerceML\Model\Property;
-use Zenwalker\CommerceML\Model\PropertyCollection;
-use Zenwalker\CommerceML\ORM\Collection;
+use NetovD\cml\Model\Category;
+use NetovD\cml\Model\CategoryCollection;
+use NetovD\cml\Model\PriceType;
+use NetovD\cml\Model\PriceTypeCollection;
+use NetovD\cml\Model\Product;
+use NetovD\cml\Model\ProductCollection;
+use NetovD\cml\Model\Property;
+use NetovD\cml\Model\PropertyCollection;
+use NetovD\cml\ORM\Collection;
 
 
 class CommerceML

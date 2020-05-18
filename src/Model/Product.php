@@ -1,6 +1,6 @@
-<?php namespace Zenwalker\CommerceML\Model;
+<?php namespace NetovD\cml\Model;
 
-use Zenwalker\CommerceML\ORM\Model;
+use NetovD\cml\ORM\Model;
 
 class Product extends Model
 {

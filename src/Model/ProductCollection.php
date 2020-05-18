@@ -1,6 +1,6 @@
-<?php namespace Zenwalker\CommerceML\Model;
+<?php namespace NetovD\cml\Model;
 
-use Zenwalker\CommerceML\ORM\Collection;
+use NetovD\cml\ORM\Collection;
 
 class ProductCollection extends Collection
 {
